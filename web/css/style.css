@@ -1,0 +1,105 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Helvetica Neue, sans-serif;
+}
+
+#main-nav {
+    background-color: #464646;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    height: 60px;
+}
+
+.nav-button {
+    background-color: #5a5a5a;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.nav-button:hover {
+    background-color: #6e6e6e;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-items {
+    margin-top: 9px;
+}
+
+#counter {
+    background-color: #5a5a5a;
+    color: #09c637;
+    padding: 7px 10px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+#login-area {
+    background: linear-gradient(to bottom, #bcbcbc, #f3f3f3 1%);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    top: 60px;
+    border-right: 2px solid #dbdbdb;
+    padding: 0px;
+}
+
+#tchat-area {
+    background: linear-gradient(to bottom, #bcbcbc, white 1%);
+    color: #464646;
+    position: absolute;
+    bottom: 0;
+    top: 60px;
+    padding: 0px;
+}
+
+.login-button {
+    background-color: #5a5a5a;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.login-button:hover {
+    background-color: #6e6e6e;
+    color: white;
+    text-decoration: none;
+}
+
+#registration-button {
+    margin-top: 50px;
+}
+
+#connexion-button {
+    margin-top: 5px;
+}
+
+#tchat-form {
+    position: absolute;
+    bottom: 15px;
+}
+
+#message {
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #a9a9a9;
+}
+
+#submit {
+    height: 40px;
+    border-radius: 0 10px 10px 0;
+    background-color: #f47022;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #f47022;
+}
+
+#submit:hover {
+    background-color: #f48321;
+    color: white;
+}

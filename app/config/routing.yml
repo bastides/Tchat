@@ -1,0 +1,3 @@
+bs_tchat:
+    resource: "@BSTchatBundle/Resources/config/routing.yml"
+    prefix:   /
