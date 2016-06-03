@@ -1,11 +1,11 @@
 body {
     background-color: #f0f0f0;
     font-family: Helvetica Neue, sans-serif;
+    color: white;
 }
 
 #main-nav {
     background-color: #464646;
-    color: white;
     padding: 10px;
     font-weight: bold;
     height: 60px;
@@ -38,7 +38,6 @@ body {
 
 #login-area {
     background: linear-gradient(to bottom, #bcbcbc, #f3f3f3 1%);
-    color: white;
     position: absolute;
     bottom: 0;
     top: 60px;
@@ -102,4 +101,49 @@ body {
 #submit:hover {
     background-color: #f48321;
     color: white;
+}
+
+
+/* ------------------ FOSUSERBUNDLE ------------------ */
+
+#fosub-general {
+    background-color: #464646;
+    padding: 50px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#login-fosub-perso {
+    background-color: #5a5a5a;
+    border: 1px solid #a9a9a9;
+    padding: 20px;
+    box-shadow: 1px 1px 8px black;
+}
+
+.form-label {
+    display: block;
+}
+
+.form-input {
+    width: 100%;
+}
+
+.form-button {
+    background-color: white;
+    color: #464646;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+#register-fosub-perso {
+    background-color: #5a5a5a;
+    border: 1px solid #a9a9a9;
+    padding: 20px;
+    box-shadow: 1px 1px 8px black;
 }

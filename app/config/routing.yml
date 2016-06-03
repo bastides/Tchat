@@ -1,3 +1,10 @@
+bs_user:
+    resource: "@BSUserBundle/Resources/config/routing.yml"
+    prefix:   /d
+
 bs_tchat:
     resource: "@BSTchatBundle/Resources/config/routing.yml"
     prefix:   /
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
