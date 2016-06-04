@@ -4,6 +4,49 @@ body {
     color: white;
 }
 
+/* ------------------ PAGE HOME REGISTER ------------------ */
+
+#home-register {
+    background-color: #464646;
+    padding: 50px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#login-or-register-area {
+    background-color: #5a5a5a;
+    border: 1px solid #a9a9a9;
+    padding: 20px;
+    box-shadow: 1px 1px 8px black;
+}
+
+.login-button {
+    background-color: white;
+    color: #464646;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.login-button:hover {
+    color: #464646;
+    text-decoration: none;
+}
+
+#registration-button {
+    margin-top: 50px;
+}
+
+#connexion-button {
+    margin-top: 10px;
+}
+
+/* ------------------ PAGE TCHAT ------------------ */
+
 #main-nav {
     background-color: #464646;
     padding: 10px;
@@ -52,29 +95,6 @@ body {
     bottom: 0;
     top: 60px;
     padding: 0px;
-}
-
-.login-button {
-    background-color: #5a5a5a;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 4px;
-}
-
-.login-button:hover {
-    background-color: #6e6e6e;
-    color: white;
-    text-decoration: none;
-}
-
-#registration-button {
-    margin-top: 50px;
-}
-
-#connexion-button {
-    margin-top: 5px;
 }
 
 #tchat-form {
